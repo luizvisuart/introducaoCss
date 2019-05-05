@@ -5,11 +5,10 @@
 
 #banner h1 {
     float: left; /*banner no lado esquerdo*/
-
 }
 
 #banner nav {
-    float: right;
+    float: right; /*banner no lado direito*/
 }
 
 #banner nav ul li {
