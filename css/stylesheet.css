@@ -1,13 +1,24 @@
 #banner {
     background-color: #333;
+    height: 76px; /*foi adicionado para empurrar para baixo os elementos da pagina*/
+}
+
+#banner h1 {
+    float: left; /*banner no lado esquerdo*/
+
+}
+
+#banner nav {
+    float: right;
 }
 
 #banner nav ul li {
-    color: #ffff;
-    display: inline; /* colocando em linha*/
+    display: inline-block; /* colocando em linha*/
+    width: 100px; /*espaçamento*/
 }
 
 #banner nav ul li a {
     color: #ffff;
     text-decoration: none; /*retirando o sublinhado do link*/
+    text-transform: uppercase; /*colocando texto em mausculo*/
 }
