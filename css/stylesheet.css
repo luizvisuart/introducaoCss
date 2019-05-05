@@ -1,14 +1,22 @@
 #banner {
     background-color: #333;
     height: 76px; /*foi adicionado para empurrar para baixo os elementos da pagina*/
+    padding: 30px 70px 30px 70px;
 }
 
 #banner h1 {
     float: left; /*banner no lado esquerdo*/
+    margin: 0;
+}
+
+#banner ul {
+    margin: 0;
 }
 
 #banner nav {
     float: right; /*banner no lado direito*/
+    position: relative; /* distancia 30px relativa ao banner (conteiner)*/
+    top: 30px;
 }
 
 #banner nav ul li {
