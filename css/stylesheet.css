@@ -1,8 +1,12 @@
 body{
     background-color: #333;
+    background-image: url(../img/background-pizza.jpg);
+    background-repeat: no-repeat; /*para não repetir a imagem*/
+    background-size: cover; /*cobrindo toda a tela na vertical também*/
+    background-size: contain; /* ajusta a imagem horizontalmente*/
 }
 #banner {
-    background-color: #333;
+    background-color: rgba(0, 0, 0,'' .5); /*opacidade da cor*/
     height: 76px; /*foi adicionado para empurrar para baixo os elementos da pagina*/
     padding: 30px 70px 30px 70px;
 }
