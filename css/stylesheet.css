@@ -50,6 +50,7 @@ body{
     margin: 0;
     line-height: 6; /* 6x a altura do texto*/
     /*fim ajustando texto*/
+    text-shadow: 2px -2px 10px #060606;
 }
 
 #sabores-pizzas table {
