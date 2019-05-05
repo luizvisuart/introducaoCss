@@ -1,3 +1,13 @@
-a {
-    color: red;
+#banner {
+    background-color: #333;
+}
+
+#banner nav ul li {
+    color: #ffff;
+    display: inline; /* colocando em linha*/
+}
+
+#banner nav ul li a {
+    color: #ffff;
+    text-decoration: none; /*retirando o sublinhado do link*/
 }
